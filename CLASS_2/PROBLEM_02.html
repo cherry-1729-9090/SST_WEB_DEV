@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- Please NOTE that the link to assets (like images) need to be set in global context.
+For example:
+To access an image from assets folder correct way to set src attribute is 
+
+src = 'profile.png'
+
+instead of 
+
+src = './assets/profile.png'
+-->
+<html>
+    <head></head>
+    <body>
+        <section>
+            <h1>Survey Form</h1>
+            <form>
+                <label for="Name">Name</label>
+                <input type="text" id="name"><br>
+                <label for="Age">Age</label>
+                <input type="number" id="age"><br>
+                <label>Gender</label>
+                <input type="radio" id="male">
+                <label for="Male">Male</label>
+                <input type="radio" id="female">
+                <label for="Female">Female</label><br>
+                <label id="food">Favorite Food</label> 
+                <select id="food">
+                    <option>Pizza</option>
+                </select><br>
+                <label>Do you like to cook?</label>
+                <input type="checkbox" id="cook">
+                <label>Yes</label><br>
+                <label>Additional comments:</label>
+                <textarea></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </body>
+</html>
