@@ -1,0 +1,9 @@
+body{
+    font-family: 'Lato', sans-serif
+}
+body header div h1{
+ color:  #5DA9E9 ;   
+}
+body header div img{
+    width: 400px;
+}
