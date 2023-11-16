@@ -89,6 +89,9 @@ src = './assets/profile.png'
     </section>
 
     <hr>
+
+    <!-- Week 2 -->
+    <!-- Get in Touch form section -->
     <section class="contact-section">
         <h1>Get in Touch</h1>
         <form id="contact">
